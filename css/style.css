@@ -1,0 +1,217 @@
+
+
+header{
+    background-color: aqua;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.layer{
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.layer .content h2{
+    font-weight: 900;
+    font-size: 60px;
+}
+.layer .content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    
+}
+.progress-bar{
+  background-color: black;
+  
+}
+.aboutleft img{
+   margin: 100px 0px;
+}
+.aboutright{
+    margin: 100px 0px;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s;
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+
+}
+.btn2{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+
+}
+#Services{
+    background-color: azure;
+}
+#Services .head h2{
+    font-size: 40px;
+   
+
+}
+#Services .icon{
+    width: 75;
+    height: 75;
+    background-color: beige;
+    color: black;
+    font-size: 32;
+    border:solid 2px beige;
+    margin: 3px;
+    padding: 15px;
+    transition:   1s;
+
+}
+#Services .icon:hover{
+    background-color: black;
+    color: white;
+}
+ 
+#Services .services{
+    text-align: center;
+    padding: 40px 20px;
+    border: 5px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+#Services .services h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+    
+#Services .services p{
+padding: 10px;
+}
+.nav-pills .nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: black;
+    border-bottom: solid 2px black;
+    border-radius: 0%;
+}
+.item{
+    margin-top: 20px;
+    position: relative;
+}
+.item-layer{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    transform: translateY(15px);
+    transition: transform 1s ,opacity 1s;
+    background-color: rgba(255, 255, 255, .9);
+    opacity: 0;
+
+}
+.item:hover .item-layer{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.item-layer h6{
+    transform: translateY(-100%);
+    transition: transform    1s;
+}
+.item:hover .item-layer h6{
+    transform: translateY(0px);
+}
+.item-layer .icon{
+    width: 30;
+    height: 30;
+    background-color: black;
+    color: white;
+    font-size: 18;
+    border:solid 2px black;
+    margin: 3px;
+    padding: 15px;
+    transition: background-color 1s;
+}
+.item-layer .icon:hover{
+    background-color: white;
+    color: black;
+}
+.item-layer .icon{
+    transform: translateY(100%);
+    transition: transform 1s;
+}
+.item:hover .item-layer .icon{
+    transform: translateY(0);
+}
+#Testimonials{
+   background-color: gainsboro;
+}
+.client img{
+    width: 200px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   
+ background-color: gray;
+}
+.numbers .icon
+{
+    font-size: 30;
+    margin-bottom: 10px;
+}
+
+#Blog{
+    background-color: rgb(249, 249, 229);
+}
+#contact .icon{
+    width: 75;
+    height: 75;
+    background-color: beige;
+    color: black;
+    font-size: 32;
+    border:solid 2px beige;
+    margin: 3px;
+    padding: 15px;
+    transition:   1s;
+
+}
+#contact .icon:hover{
+    background-color:black;
+    color: white;
+}
+
+.contact h2{
+    font-weight: bold;
+}
+form .btn{
+    background-color: black;
+    padding: 10px;
+    transition: 1s;
+}
+form .btn:hover{
+    background-color: white;
+    color: black;
+}
+footer .footer{
+    background-color: black;
+    height: 100;
+    color: white;
+}
+
